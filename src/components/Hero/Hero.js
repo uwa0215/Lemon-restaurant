@@ -4,7 +4,7 @@ import cart from '../../assets/cart.png'
 import lemon from '../../assets/lemon.jfif'
 const Hero = () => {
   return (
-    <div className='hero container'>
+    <div className='hero container' id='hero'>
       <div className='hero-text'>
         <h1>Little Lemon</h1>
         <h2>Philippines</h2>

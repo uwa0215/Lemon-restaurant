@@ -10,7 +10,7 @@ import arrow from '../../assets/white-arrow.png'
 
 const Specialty = () => {
   return (
-    <div className='specialty'>
+    <div className='specialty' id='specialty'>
       <div className='delicacy'>
          <img src={lemonade6}/>
          <img src={lemonade2}/>
