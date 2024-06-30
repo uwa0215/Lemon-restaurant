@@ -39,7 +39,7 @@ const Testimonials = () => {
                         <img src={user1} alt="" />
                         <div>
                             <h3>Mary Padilla</h3>
-                            <span>Manila, Philippines</span>
+                            <span>Manila, <br /> Philippines</span>
                         </div>
                     </div>
                     <p>
@@ -69,7 +69,7 @@ const Testimonials = () => {
                         <img src={user3} alt="" />
                         <div>
                             <h3>Mark Cortez</h3>
-                            <span>Marikina, Philippines</span>
+                            <span>Marikina, <br /> Philippines</span>
                         </div>
                     </div>
                     <p>
@@ -83,8 +83,8 @@ const Testimonials = () => {
                     <div className="user-info">
                         <img src={user4} alt="" />
                         <div>
-                            <h3>Grace Bernardo</h3>
-                            <span>Pasay, Philippines</span>
+                            <h3>Grace Santos</h3>
+                            <span>Pasay,<br /> Philippines</span>
                         </div>
                     </div>
                     <p>

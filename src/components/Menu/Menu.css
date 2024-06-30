@@ -40,3 +40,14 @@
     opacity: 1;
     padding-top: 0;
 }
+
+/*----------Media Query------------*/
+@media(max-width: 650px){
+    .menus{
+        flex-direction: column;
+    }
+    .menu{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}

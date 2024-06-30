@@ -27,6 +27,9 @@ nav ul li{
     transition: 0.5s;
 
 }
+.menu-icon{
+    display: none;
+}
 /* ---------Media query-------------*/
 
 @media (max-width: 1000px){
@@ -56,5 +59,13 @@ nav ul li{
     nav ul li{
         display: block;
         margin: 35px 40px;
+    }
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    .hide-mobile-menu{
+        right: -200px;
     }
 }

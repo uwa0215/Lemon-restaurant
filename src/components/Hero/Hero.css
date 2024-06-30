@@ -32,3 +32,31 @@
     
 
 }
+@media (max-width: 840px){
+    .headline-img{
+        display: none;
+    }
+    .hero-text h1{
+        font-size: 40px;
+    }
+
+}
+@media (max-width: 650px){
+ 
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto; 
+    }
+    .hero-text h2{
+        font-size: 20px;
+        max-width: 400px;
+        margin: auto; 
+    }
+    .hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+        max-width: 400px;
+
+    }
+}
