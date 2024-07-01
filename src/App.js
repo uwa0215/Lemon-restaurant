@@ -9,17 +9,19 @@ import Testimonials from './components/Testimonials/Testimonials'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import VideoPlayer from './components/VideoPlayer/VideoPlayer'
+import Form from './components/Form/Form'
+
 const App = () => {
 
   const [playState, setPlayState] = useState(false);
-
-
+  const [bookState, setBookState] = useState(false);
 
   return (
     <div>
-      <Nav/>
-      <Hero/>
+      <Nav setBookState={setBookState}/>
+      <Hero setBookState={setBookState}/>
       <div className='container'>
+        
         <Title subTitle='Our MENU' title='What We Offer'/>
         <Menu/>
         <About setPlayState={setPlayState}/>
@@ -31,8 +33,10 @@ const App = () => {
         <Contact/>
         <Footer/>
 
+          
       </div>
       <VideoPlayer playState={playState} setPlayState={setPlayState}/>
+      <Form bookState={bookState} setBookState={setBookState}/>
     </div>
   )
 }

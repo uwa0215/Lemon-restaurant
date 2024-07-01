@@ -41,6 +41,10 @@ a{
 background: #212EA0;
 color: #fff;
 }
+.btn:hover{
+  background-color: #b839b1;
+  color: #fff
+}
 
 /* ---------Media query-------------*/
 @media (max-width: 1200px){

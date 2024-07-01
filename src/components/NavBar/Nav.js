@@ -3,7 +3,7 @@ import './Nav.css'
 import logo from '../../assets/logo1.png'
 import menu_icon from '../../assets/menu-icon.png'
 
-const Nav = () => {
+const Nav = ({setBookState}) => {
   const handleScroll = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -36,7 +36,7 @@ const Nav = () => {
         <li onClick={() => handleScroll('about')}>About</li>
         <li onClick={() => handleScroll('specialty')}>Menu</li>
         <li onClick={() => handleScroll('testimonial')}>Testimonials</li>
-        <li onClick={() => handleScroll('section1')}>Order Online</li>
+        <li onClick={()=>{setBookState(true)}} >Book Online</li>
         <li onClick={() => handleScroll('contact')}><button className='btn'>Contact Us</button></li>
       </ul>
       <img src={menu_icon} alt="menu" className='menu-icon' onClick={toggleMenu}/>
