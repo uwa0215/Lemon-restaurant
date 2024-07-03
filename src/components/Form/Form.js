@@ -23,9 +23,16 @@ const Form = ({bookState, setBookState}) => {
                 <label>Choose Date</label>
                 <input type="date" name='date' />
                 <label>Choose Time</label>
-                <input type="time" name='date' />
+                <select name="time" id="time">
+                   <option>17:00</option>
+                   <option>18:00</option>
+                   <option>19:00</option>
+                   <option>20:00</option>
+                   <option>21:00</option>
+                   <option>22:00</option>
+                </select>
                 <label>Number Of Guests</label>
-                <input type="number" name='guests' />
+                <input type="number" name='guests' placeholder='1' min='1' max='20'/>
                 <button type='submit' className='btn dark-btn'>Submit Now</button>
       </form>
     </div>

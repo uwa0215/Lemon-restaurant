@@ -30,7 +30,7 @@
 }
 .booking-form form input{
     display: block;
-    width: 70%;
+    width: 50%;
     background:#EBECFE;
     padding: 15px;
     border: 1px solid #676767;
@@ -38,11 +38,26 @@
     margin-bottom: 15px;
     margin-top: 5px;
     resize: none;
-    margin-left: 15%;
+    margin-left: 25%;
     border-radius: 5px;
+    text-align: center;
+}
+.booking-form form select{
+    width: 50%;
+    display: block;
+    background:#EBECFE;
+    padding: 15px;
+    border: 1px solid #676767;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+    margin-left: 25%;
+    border-radius: 5px;
+    text-align: center;
 }
 .booking-form form button{
-    margin-left: 42%;
+    margin-left: 40%;
 }
 .booking-form form h3{
     align-items: center;
