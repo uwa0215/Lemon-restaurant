@@ -26,6 +26,13 @@
     transform: translate(-50%,-50%);
     cursor: pointer;
 }
+.play-icon:hover{
+    background-color: aqua;
+    border-radius: 100%;
+    transition: 0.4;
+    width: 70px;
+    
+}
 .about h3{
     font-weight: 600;
     font-size: 16px;
