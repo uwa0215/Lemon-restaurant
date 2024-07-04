@@ -91,4 +91,7 @@
     .slider p{
         font-size: 12px
     }
+    .slide{
+        height: 180px;
+    }
 }
