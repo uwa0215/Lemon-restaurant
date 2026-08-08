@@ -31,6 +31,7 @@
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
+    "APP_KEY": "base64:0Y1VOSJePLigWflw1x9F/RhG6tS0XM21LBHQoJijiog=",
     "VIEW_COMPILED_PATH": "/tmp",
     "CACHE_DRIVER": "array",
     "CACHE_STORE": "array",
