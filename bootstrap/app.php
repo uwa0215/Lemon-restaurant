@@ -16,17 +16,8 @@ return Application::configure(basePath: dirname(__DIR__))
             \App\Http\Middleware\HandleInertiaRequests::class,
             \Illuminate\Http\Middleware\AddLinkHeadersForPreloadedAssets::class,
         ]);
-
-        //
     })
     ->withExceptions(function (Exceptions $exceptions): void {
-        $exceptions->render(function (\Throwable $e, Request $request) {
-            echo "<h1>ORIGINAL EXCEPTION</h1>";
-            echo "<pre>" . $e->getMessage() . "</pre>";
-            echo "<pre>" . $e->getFile() . ":" . $e->getLine() . "</pre>";
-            echo "<pre>" . $e->getTraceAsString() . "</pre>";
-            die();
-        });
         $exceptions->shouldRenderJsonWhen(
             fn (Request $request) => $request->is('api/*'),
         );
