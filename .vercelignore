@@ -1,0 +1,6 @@
+/vendor
+/node_modules
+/composer.phar
+/composer.bat
+/_old_react_app_backup
+
